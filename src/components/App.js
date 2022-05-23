@@ -1,10 +1,17 @@
 import React, { Component, useState } from "react";
 import "../styles/App.css";
+import Heading from "./Heading";
+import InputQuery from "./InputQuery";
+import SubHeading from "./SubHeading";
+import SubmitButton from "./SubmitButton";
 
 const App = () => {
   return (
     <div id="main">
-      <p>I am learning React. My life is getting better.</p>
+      <Heading />
+      <SubHeading />
+      <InputQuery />
+      <SubmitButton />
     </div>
   );
 };
